@@ -7,7 +7,7 @@ Multi-Stock Portfolio VaR Calculator – Estimates potential loss for a portfoli
 
 Both are built from scratch for educational purposes and demonstrate practical risk estimation techniques.
 
-Features
+Features:
 -Fetches historical stock prices using yfinance.
 -Computes daily returns manually for accurate control over calculations.
 -Supports 1-day and 1-week horizons for single-stock VaR.
