@@ -12,8 +12,6 @@ Features:
 -Computes daily returns manually for accurate control over calculations.
 -Supports 1-day and 1-week horizons for single-stock VaR.
 -Handles weighted multi-stock portfolios with manual return aggregation.
--Provides clear error messages for:
-         Invalid tickers
-         Missing data
-         Invalid portfolio amounts
+-Provides clear error messages.
+         
 
