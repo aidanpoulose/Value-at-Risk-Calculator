@@ -49,7 +49,7 @@ def main(portfolio):
     upper_index = ceil(index)
     percentile = portfolio_returns[lower_index] + (index - lower_index) * (portfolio_returns[upper_index] - portfolio_returns[lower_index])
     VaR = round(abs(percentile * total), 2)
-    print(f"The Estimated Potential Loss at 95% confidence level is ${VaR}")
+    print(f"The Estimated Potential Loss at 95% confidence level is ${VaR}. There is a 5% chance that losses may exceed this amount in a single day.")
 
 portfolio = {"AAPL":5000, "APLD":1000, "NVDA":10000}
 main(portfolio)
