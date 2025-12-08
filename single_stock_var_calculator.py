@@ -35,7 +35,7 @@ def main():
         if days == "1-week":
             n = 5
             res = round(res * (n ** 0.5), 2)
-        print(f"For 95% confidence level with a {days} horizon, the Estimated Potential Loss is ${res}")
+        print(f"For 95% confidence level with a {days} horizon, the Estimated Potential Loss is ${res}. There is a 5% chance that losses could exceed this amount.")
     except Exception as error:
         print("Error", error)
 main()
